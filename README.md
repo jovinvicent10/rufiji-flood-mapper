@@ -19,8 +19,8 @@ land was newly flooded, how many hectares that is, and where the model is unsure
 It comes from an Advanced Machine Learning mini-project on detecting floods as rare events, with a case study of
 the **April 2024 Rufiji River floods in Tanzania**.
 
-**Live app:** `https://huggingface.co/spaces/YOUR-HF-USERNAME/rufiji-flood-mapper`
-**Model:** `https://huggingface.co/YOUR-HF-USERNAME/rufiji-flood-unet`
+**Live app:** `https://huggingface.co/spaces/jovinvicent10/rufiji-flood-mapper`
+**Model:** `https://huggingface.co/jovinvicent10/rufiji-flood-unet`
 
 ## What it does
 
