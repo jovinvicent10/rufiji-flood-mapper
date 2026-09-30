@@ -17,7 +17,7 @@ from streamlit_folium import st_folium
 from flood_model import (FloodModel, InputError, align_to, change_detection, pixel_area_ha,
                          read_s1, to_geotiff)
 
-MODEL_REPO = os.environ.get("FLOOD_MODEL_REPO", "YOUR-HF-USERNAME/rufiji-flood-unet")
+MODEL_REPO = os.environ.get("FLOOD_MODEL_REPO", "jovinvicent10/rufiji-flood-unet")
 LOCAL_DIR = os.path.join(os.path.dirname(__file__), "models")
 DEMO_FILES = {"flood": "demo/rufiji_flood_2024-04.tif", "ref": "demo/rufiji_dry_2023.tif"}
 
