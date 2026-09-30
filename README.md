@@ -85,11 +85,11 @@ notebook/                   the training and analysis notebook
 ## Run it on your own computer
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/rufiji-flood-mapper.git
+git clone https://github.com/jovinvicent10/rufiji-flood-mapper.git
 cd rufiji-flood-mapper
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-export FLOOD_MODEL_REPO=YOUR-HF-USERNAME/rufiji-flood-unet  # Windows: set FLOOD_MODEL_REPO=...
+export FLOOD_MODEL_REPO=jovinvicent10/rufiji-flood-unet  # Windows: set FLOOD_MODEL_REPO=...
 streamlit run app.py
 ```
 
@@ -103,4 +103,4 @@ See [DEPLOY.md](DEPLOY.md) to publish your own copy.
   train and test deep learning flood algorithms for Sentinel-1.* CVPR Workshops.
 - Sentinel-1 imagery: Copernicus programme, European Space Agency, via Google Earth Engine.
 - Permanent water: JRC Global Surface Water. Land cover: ESA WorldCover.
-- Author: [Your name], [Institution].
+- Author: Jovin Vicent Njau, The Nelson Mandela African Institution of Science and Technology.
